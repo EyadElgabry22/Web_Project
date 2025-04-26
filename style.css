@@ -1,0 +1,55 @@
+* {
+  max-width: 600px;
+  align-items: center;
+}
+.container {
+  align-items: center;
+  background-color: lightgray;
+}
+.profile_section {
+  margin-top: 20px;
+}
+.my_photo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+h2 {
+  margin-bottom: 5px;
+}
+label {
+  font-size: 24px;
+}
+ul {
+  margin: 0;
+
+  padding-top: 5px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+ul li {
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+.contact_section {
+  display: inline-block;
+  width: 10%;
+}
+input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+button {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+button:hover {
+  background-color: rgb(0, 242, 255);
+}
